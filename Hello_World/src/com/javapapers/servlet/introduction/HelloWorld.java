@@ -21,6 +21,7 @@ public class HelloWorld extends HttpServlet {
 		out.println("This is from Servlet Class!");
 		out.println("<br>");
 		out.println("This is for testing from Batch file!");
+		out.println("This is again for testing from Batch file!");
 		out.println("</body></html>");
 		out.close();
 	}
