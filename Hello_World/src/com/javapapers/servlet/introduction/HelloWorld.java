@@ -15,12 +15,14 @@ public class HelloWorld extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 			throws ServletException, IOException {
 		res.setContentType("text/html");
+		//fgfg
 		PrintWriter out = res.getWriter();
 		out.println("<html><body>");
 		out.println("Hello World!");
 		out.println("This is from Servlet Class!");
 		out.println("<br>");
 		out.println("This is for testing from Batch file!");
+		out.println("This is again for testing from Batch file!");
 		out.println("This is again for testing from Batch file!");
 		out.println("</body></html>");
 		out.close();
